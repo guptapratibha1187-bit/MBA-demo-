@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | MBA Demo Store</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) - GA4 PRACTICE PLACEHOLDER
+     Replace G-XXXXXXXXXX below with your own GA4 Measurement ID.
+     Keep this block inside the <head> section on every page. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="brand">MBA Demo Store</div>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="offers.html">Offers</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<section>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>This form is for demonstration only and does not send data anywhere.</p>
+    <form onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
+      <label>Name<input type="text" required></label>
+      <label>Email<input type="email" required></label>
+      <label>Purpose
+        <select>
+          <option>Product Enquiry</option>
+          <option>Feedback</option>
+          <option>Academic Demo</option>
+        </select>
+      </label>
+      <label>Message<textarea rows="5"></textarea></label>
+      <button type="submit">Submit Demo Form</button>
+    </form>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <strong>MBA Demo Store</strong><br>
+    Dummy website created only for Google Analytics learning and classroom practice.
+  </div>
+</footer>
+
+</body>
+</html>
